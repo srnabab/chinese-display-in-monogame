@@ -71,6 +71,8 @@ int main(void)
         printf("%d ", find_value(chi[i], hash));
     }
 
+    //save_hash_to_json(hash, "chinese_hash.json");//保存到.json文件
+
     free_hash_next(hash);//释放链表节点内存
 
     
